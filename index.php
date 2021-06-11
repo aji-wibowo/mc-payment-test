@@ -7,7 +7,7 @@ class test
         if (count($nums) == 0) {
             return "error, array is emty";
         }
-        // pake boolean
+
         $criteria = [];
         foreach ($nums as $substractedValue) {
             foreach ($nums as $value) {
